@@ -39,5 +39,8 @@ Next you will need to modify the file paths in `../CV_FINAL_PROJECT_SP25/yolo_da
 ### 3. Run Notebook
 Run each cell in `../CV_FINAL_PROJECT_SP25/yolo/CV_project.ipynb`, with the exception of the training cell, as we've already provided the fully trained model for you. Again, be sure to update the data paths so that they correspond with your machine.
 
+Note- After running the first cell ensure that your Ultralytics version is `8.3.40`, YOLO11 is a new architecture and requires the most up-to date version. If you have a chached version of ultralytics, or for whatever reason cannot install/upgrade to the correct version, you can upload the notebook to collab and run the model there, as the most up-to-date version should be installed by default. However to evaluate the model remember to upload the yolo_data folder to the colab instance.
+
+### 4. Output
 Model evaluating is done via ultralytics commandline, and it will output the evaluation metrics in the runs folder. 
 Note that the val folder is the result of the model evaluation on our actual test set (which was too large to provide) while val-2 will be the results of the model evaluating on your test set. A good sanity check is to make sure the results line-up somewhat.

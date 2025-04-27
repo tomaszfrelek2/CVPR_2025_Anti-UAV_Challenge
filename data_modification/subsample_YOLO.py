@@ -90,12 +90,12 @@ for folder in subfolders:
         #FIX
         
         #put image in train set
-        if i < 72:
+        if i < 80:
             shutil.copy2(img_path, os.path.join(output_root, "train","images",f'{image_nums:06d}.jpg'))
             with open(os.path.join(output_root,"train","labels",f'{image_nums:06d}.txt'), 'w') as f:
                 f.write(yolo_label)
         #put image in 
-        elif i - 72 < 9: 
+        elif i - 80 < 10: 
             shutil.copy2(img_path, os.path.join(output_root,"val","images",f'{image_nums:06d}.jpg'))
             with open(os.path.join(output_root,"val","labels",f'{image_nums:06d}.txt'), 'w') as f:
                 f.write(yolo_label)

@@ -1,0 +1,6 @@
+train: /Users/tomaszfrelek/Downloads/MultiUAV_Baseline_code_and_submissi/data/train/images
+val: /Users/tomaszfrelek/Downloads/MultiUAV_Baseline_code_and_submissi/data/val/images
+test: /Users/tomaszfrelek/Downloads/MultiUAV_Baseline_code_and_submissi/data/test/images
+
+nc: 1
+names: ['uav']

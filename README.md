@@ -14,7 +14,11 @@ This folder contains the scripts we used to subsample the original dataset into 
 
 ### `SiamFC`
 
-This folder contains all of our code for the **SiamFC** model.  
+This folder contains all of our code for running the **SiamFC** model.  
+
+### `yolo`
+
+This folder contains all of our code for running the **YOLO11## model.
 
 ## SiameseFC Code for UAV/drone tracking
 

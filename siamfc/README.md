@@ -49,10 +49,10 @@ python3 train_drone.py \
 ```
 
 ### Data Format
-
+You can find a small version of the dataset we used in the siamfc folder. It is called small_dataset.zip. We cannot include the subsampled dataset we used for training because GitHub won't allow us to upload anything that large in size.
 The dataset should be organized as follows:
 ```
-dataset/
+small_dataset/
 ├── sequence_1/
 │   ├── IR_label.json  # Annotations in [x, y, width, height] format
 │   ├── frames/        # Containing image frames

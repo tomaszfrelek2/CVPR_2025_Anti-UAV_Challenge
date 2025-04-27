@@ -5,7 +5,7 @@ A note on data: We were not able to provide our original training or testing dat
 data_modification: The data_modification folder contains the scripts that we used to subsample the original dataset into both YOLO and SiamFC formats
 
 
-SiamFC: This folder contains all of our code for the SiamFC model
+SiamFC: This folder contains all of our code for the SiamFC model. Instructions for running are in siamfc/readme.md
 
 
 

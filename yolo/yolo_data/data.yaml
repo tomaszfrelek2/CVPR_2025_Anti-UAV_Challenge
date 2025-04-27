@@ -1,0 +1,6 @@
+train: ../CV_FINAL_PROJECT_SP25/yolo/yolo_data/test/images
+val: ../CV_FINAL_PROJECT_SP25/yolo/yolo_data/test/images
+test: ../CV_FINAL_PROJECT_SP25/yolo/yolo_data/test/images
+
+nc: 1
+names: ['uav']

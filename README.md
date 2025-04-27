@@ -7,4 +7,7 @@ To run SiamFC:
 
 
 
-To run YOLO11:
+To run YOLO11: 
+First you will need to modify the file paths in ../CV_FINAL_PROJECT_SP25/yolo_data/data.yaml so that they correspond with your machine.
+
+Run each cell in ../CV_FINAL_PROJECT_SP25/yolo/CV_project.ipynb, with the exception of the training cell, as we've already provided the fully trained model for you. Besure to update the datapaths so that they correspond with your machine.

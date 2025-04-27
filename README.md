@@ -2,7 +2,7 @@
 
 ## A Note on Data
 
-We were not able to provide our original training or testing data, as GitHub has file-size limits of 25MB, and even our zip files exceeded that. Instead, we've provided some small test data in the `data` folder for you to evaluate our models on.
+We were not able to provide our original training or testing data, as GitHub has file-size limits of 25MB, and even our zip files exceeded that. Instead, we've provided some small test data in siamfc and yolo folders for you to evaluate our models on.
 
 ---
 

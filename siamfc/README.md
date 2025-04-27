@@ -1,14 +1,18 @@
-# SiameseFC Code for UAV/drone tracking
+### `SiamFC`
 
-# This code is adapted from this GitHub repo: https://github.com/rafellerc/Pytorch-SiamFC
+This folder contains all of our code for the **SiamFC** model.  
 
-## Environment Setup
+## SiameseFC Code for UAV/drone tracking
 
-### Prerequisites
+## This code is adapted from this GitHub repo: https://github.com/rafellerc/Pytorch-SiamFC
+
+### Environment Setup
+
+#### Prerequisites
 - Anaconda or Miniconda
 - CUDA-compatible GPU
 
-### Creating the Environment
+#### Creating the Environment
 To create the conda environment with all necessary dependencies:
 
 ```bash
@@ -20,7 +24,7 @@ conda activate siamfc
 pip install torch torchvision
 ```
 
-## Project Structure
+### Project Structure
 
 ```
 .
@@ -38,18 +42,8 @@ pip install torch torchvision
 └── README.md
 ```
 
-## Training
-
-To train the SiamFC model on your drone dataset:
-
-```bash
-python3 train_drone.py \
-  --data_dir PATH_TO_DATASET \
-  --exp_name MY_EXPERIMENT
-```
-
-### Data Format
-You can find a small version of the dataset we used in the siamfc folder. It is called small_dataset.zip. We cannot include the subsampled dataset we used for training because GitHub won't allow us to upload anything that large in size.
+#### Data Format
+You can find a small version of the dataset we used in the siamfc folder. It is called small_dataset.zip. Use this to run testing on our trained model. We cannot include the subsampled dataset we used for training because GitHub won't allow us to upload anything that large in size.
 The dataset should be organized as follows:
 ```
 small_dataset/
@@ -62,9 +56,10 @@ small_dataset/
 └── ...
 ```
 
-## Evaluation
+### Evaluation
+You can find our trained model here: siamfc/models/siamDroneExp/best_model.pth
 
-To evaluate a trained model:
+To evaluate our trained model:
 
 ```bash
 python3 evaluate_siamfc.py \
@@ -76,6 +71,6 @@ python3 evaluate_siamfc.py \
 
 This will calculate metrics including mean IoU, success rate, precision, and mAP50.
 
-## Acknowledgments
+### Acknowledgments
 
 - This code is adapted from this GitHub repo: https://github.com/rafellerc/Pytorch-SiamFC

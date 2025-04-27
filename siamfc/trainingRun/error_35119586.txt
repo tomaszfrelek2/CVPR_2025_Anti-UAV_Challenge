@@ -1,0 +1,9 @@
+cp: cannot stat ‘/path/to/losses_fixed.py’: No such file or directory
+cp: cannot stat ‘/path/to/trainer_fixed.py’: No such file or directory
+cp: cannot stat ‘/path/to/train_drone_fixed.py’: No such file or directory
+Traceback (most recent call last):
+  File "train_drone.py", line 4, in <module>
+    from training.drone_dataset import DroneDataset, create_drone_datasets
+  File "/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/drone_dataset.py", line 5, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

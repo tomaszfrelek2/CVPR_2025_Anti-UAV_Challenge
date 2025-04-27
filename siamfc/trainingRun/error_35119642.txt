@@ -1,0 +1,74 @@
+2025-04-20 16:02:55 ----- Starting train script in mode: train -----
+2025-04-20 16:02:55 Loading datasets...
+2025-04-20 16:03:15 Train dataset size: 1258328
+2025-04-20 16:03:15 Validation dataset size: 319580
+2025-04-20 16:03:18.081388: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /apps/miniconda3/4.10.3-py37/lib:/opt/mvapich2/intel/19.0/2.3.3/lib:/apps/gnu/8.4.0/lib64:/apps/gnu/8.4.0/lib:/opt/intel/19.0.5/debugger_2019/libipt/intel64/lib:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/lib/intel64_lin:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/daal/lib/intel64_lin:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/ipp/lib/intel64_lin:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/mkl/lib/intel64_lin:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/tbb/lib/intel64_lin/gcc4.4:/opt/ddn/cci/lib:/opt/ddn/ime/lib:/opt/ddn/isa-l/lib
+2025-04-20 16:03:18.081450: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-04-20 16:03:20 Starting training for 50 epochs
+2025-04-20 16:03:20 Training on device: cuda
+/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/losses.py:48: UserWarning: Using a target size (torch.Size([32, 33, 33])) that is different to the input size (torch.Size([32, 32, 33, 33])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  pos_loss = F.mse_loss(pred * pos_mask, target * pos_mask, reduction='sum') / pos_num
+/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/losses.py:49: UserWarning: Using a target size (torch.Size([32, 33, 33])) that is different to the input size (torch.Size([32, 32, 33, 33])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  neg_loss = F.mse_loss(pred * neg_mask, target * neg_mask, reduction='sum') / neg_num
+2025-04-20 16:03:23 Epoch 1, Batch 10/39323, Loss: nan
+2025-04-20 16:03:24 Epoch 1, Batch 20/39323, Loss: nan
+2025-04-20 16:03:25 Epoch 1, Batch 30/39323, Loss: nan
+2025-04-20 16:03:27 Epoch 1, Batch 40/39323, Loss: nan
+2025-04-20 16:03:28 Epoch 1, Batch 50/39323, Loss: nan
+2025-04-20 16:03:30 Epoch 1, Batch 60/39323, Loss: nan
+2025-04-20 16:03:31 Epoch 1, Batch 70/39323, Loss: nan
+2025-04-20 16:03:33 Epoch 1, Batch 80/39323, Loss: nan
+2025-04-20 16:03:34 Epoch 1, Batch 90/39323, Loss: nan
+2025-04-20 16:03:35 Epoch 1, Batch 100/39323, Loss: nan
+2025-04-20 16:03:37 Epoch 1, Batch 110/39323, Loss: nan
+2025-04-20 16:03:38 Epoch 1, Batch 120/39323, Loss: nan
+2025-04-20 16:03:40 Epoch 1, Batch 130/39323, Loss: nan
+2025-04-20 16:03:41 Epoch 1, Batch 140/39323, Loss: nan
+2025-04-20 16:03:42 Epoch 1, Batch 150/39323, Loss: nan
+2025-04-20 16:03:44 Epoch 1, Batch 160/39323, Loss: nan
+2025-04-20 16:03:45 Epoch 1, Batch 170/39323, Loss: nan
+2025-04-20 16:03:47 Epoch 1, Batch 180/39323, Loss: nan
+2025-04-20 16:03:48 Epoch 1, Batch 190/39323, Loss: nan
+2025-04-20 16:03:49 Epoch 1, Batch 200/39323, Loss: nan
+2025-04-20 16:03:51 Epoch 1, Batch 210/39323, Loss: nan
+2025-04-20 16:03:52 Epoch 1, Batch 220/39323, Loss: nan
+2025-04-20 16:03:54 Epoch 1, Batch 230/39323, Loss: nan
+2025-04-20 16:03:55 Epoch 1, Batch 240/39323, Loss: nan
+2025-04-20 16:03:56 Epoch 1, Batch 250/39323, Loss: nan
+2025-04-20 16:03:58 Epoch 1, Batch 260/39323, Loss: nan
+2025-04-20 16:03:59 Epoch 1, Batch 270/39323, Loss: nan
+2025-04-20 16:04:00 Epoch 1, Batch 280/39323, Loss: nan
+2025-04-20 16:04:02 Epoch 1, Batch 290/39323, Loss: nan
+2025-04-20 16:04:03 Epoch 1, Batch 300/39323, Loss: nan
+2025-04-20 16:04:05 Epoch 1, Batch 310/39323, Loss: nan
+2025-04-20 16:04:06 Epoch 1, Batch 320/39323, Loss: nan
+2025-04-20 16:04:08 Epoch 1, Batch 330/39323, Loss: nan
+2025-04-20 16:04:09 Epoch 1, Batch 340/39323, Loss: nan
+2025-04-20 16:04:10 Epoch 1, Batch 350/39323, Loss: nan
+2025-04-20 16:04:12 Epoch 1, Batch 360/39323, Loss: nan
+2025-04-20 16:04:13 Epoch 1, Batch 370/39323, Loss: nan
+2025-04-20 16:04:14 Epoch 1, Batch 380/39323, Loss: nan
+2025-04-20 16:04:16 Epoch 1, Batch 390/39323, Loss: nan
+2025-04-20 16:04:17 Epoch 1, Batch 400/39323, Loss: nan
+2025-04-20 16:04:19 Epoch 1, Batch 410/39323, Loss: nan
+2025-04-20 16:04:20 Epoch 1, Batch 420/39323, Loss: nan
+2025-04-20 16:04:21 Epoch 1, Batch 430/39323, Loss: nan
+2025-04-20 16:04:23 Epoch 1, Batch 440/39323, Loss: nan
+2025-04-20 16:04:24 Epoch 1, Batch 450/39323, Loss: nan
+2025-04-20 16:04:26 Epoch 1, Batch 460/39323, Loss: nan
+2025-04-20 16:04:27 Epoch 1, Batch 470/39323, Loss: nan
+2025-04-20 16:04:28 Epoch 1, Batch 480/39323, Loss: nan
+2025-04-20 16:04:30 Epoch 1, Batch 490/39323, Loss: nan
+2025-04-20 16:04:31 Epoch 1, Batch 500/39323, Loss: nan
+2025-04-20 16:04:33 Epoch 1, Batch 510/39323, Loss: nan
+2025-04-20 16:04:34 Epoch 1, Batch 520/39323, Loss: nan
+2025-04-20 16:04:35 Epoch 1, Batch 530/39323, Loss: nan
+2025-04-20 16:04:37 Epoch 1, Batch 540/39323, Loss: nan
+2025-04-20 16:04:38 Epoch 1, Batch 550/39323, Loss: nan
+2025-04-20 16:04:39 Epoch 1, Batch 560/39323, Loss: nan
+2025-04-20 16:04:41 Epoch 1, Batch 570/39323, Loss: nan
+2025-04-20 16:04:42 Epoch 1, Batch 580/39323, Loss: nan
+2025-04-20 16:04:44 Epoch 1, Batch 590/39323, Loss: nan
+2025-04-20 16:04:45 Epoch 1, Batch 600/39323, Loss: nan
+2025-04-20 16:04:46 Epoch 1, Batch 610/39323, Loss: nan
+slurmstepd: error: *** JOB 35119642 ON p0240 CANCELLED AT 2025-04-20T16:04:48 ***

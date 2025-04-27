@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "evaluate_siamfc.py", line 282, in <module>
+    result = evaluate_sequence(seq_path)
+  File "evaluate_siamfc.py", line 218, in evaluate_sequence
+    response = model(template, search_area)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/models.py", line 200, in forward
+    embedding_search = self.embedding_net(x2)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/models.py", line 50, in forward
+    output = self.fully_conv(x)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/users/PAS1101/sundaralingam6/.conda/envs/siamfc/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 443, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [96, 3, 11, 11], expected input[1, 6, 255, 255] to have 3 channels, but got 6 channels instead

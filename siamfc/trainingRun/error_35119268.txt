@@ -1,0 +1,10 @@
+2025-04-20 14:51:34 ----- Starting train script in mode: train -----
+2025-04-20 14:51:34 Loading datasets...
+Traceback (most recent call last):
+  File "train_drone.py", line 139, in <module>
+    main()
+  File "train_drone.py", line 77, in main
+    img_read_fcn=img_read_fcn
+  File "/fs/scratch/PAS2985/team11/Pytorch-SiamFC/training/drone_dataset.py", line 308, in create_drone_datasets
+    os.symlink(seq, os.path.join(train_dir, seq_name))
+FileExistsError: [Errno 17] File exists: '/fs/scratch/PAS2985/team11/first_100_images/wg2022_ir_048_split_03' -> '/fs/scratch/PAS2985/team11/first_100_images/_tmp_train/wg2022_ir_048_split_03'

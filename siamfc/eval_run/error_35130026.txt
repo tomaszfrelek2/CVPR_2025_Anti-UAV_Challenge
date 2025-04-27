@@ -1,0 +1,5 @@
+bash: conda: command not found
+Traceback (most recent call last):
+  File "evaluate_siamfc.py", line 2, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

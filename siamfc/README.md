@@ -71,6 +71,14 @@ python3 evaluate_siamfc.py \
 
 This will calculate metrics including mean IoU, success rate, precision, and mAP50.
 
+### Visualizations
+
+You can unzip these files:
+- siamfc/evaluation_results.zip
+- siamfc/response_visualizations.zip
+
+These folders will include validation images/visualizations for SiamFC
+
 ### Acknowledgments
 
 - This code is adapted from this GitHub repo: https://github.com/rafellerc/Pytorch-SiamFC

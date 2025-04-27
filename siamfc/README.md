@@ -12,7 +12,7 @@
 To create the conda environment with all necessary dependencies:
 
 ```bash
-conda env create -f environment.yaml
+conda env create -f baseline.yaml
 conda activate siamfc
 ```
 

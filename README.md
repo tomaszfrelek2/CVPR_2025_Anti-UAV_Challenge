@@ -56,18 +56,8 @@ pip install torch torchvision
 └── README.md
 ```
 
-### Training
-
-To train the SiamFC model on your drone dataset:
-
-```bash
-python3 train_drone.py \
-  --data_dir PATH_TO_DATASET \
-  --exp_name MY_EXPERIMENT
-```
-
 #### Data Format
-You can find a small version of the dataset we used in the siamfc folder. It is called small_dataset.zip. We cannot include the subsampled dataset we used for training because GitHub won't allow us to upload anything that large in size.
+You can find a small version of the dataset we used in the siamfc folder. It is called small_dataset.zip. Use this to run testing on our trained model. We cannot include the subsampled dataset we used for training because GitHub won't allow us to upload anything that large in size.
 The dataset should be organized as follows:
 ```
 small_dataset/
@@ -81,8 +71,9 @@ small_dataset/
 ```
 
 ### Evaluation
+You can find our trained model here: siamfc/models/siamDroneExp/best_model.pth
 
-To evaluate a trained model:
+To evaluate our trained model:
 
 ```bash
 python3 evaluate_siamfc.py \

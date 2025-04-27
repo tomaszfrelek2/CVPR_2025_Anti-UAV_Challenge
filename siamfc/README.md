@@ -12,8 +12,12 @@
 To create the conda environment with all necessary dependencies:
 
 ```bash
+# Create the environment first
 conda env create -f baseline.yaml
 conda activate siamfc
+
+# You need to run this if you're on a Mac with Apple Silicon (AFTER CREATING AND ACTIVATING ENV)
+pip install torch torchvision
 ```
 
 ## Project Structure

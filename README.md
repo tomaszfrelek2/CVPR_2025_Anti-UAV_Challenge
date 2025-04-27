@@ -36,6 +36,7 @@ Note- You may have to restart your IDE for this to work properly
 
 Next you will need to modify the file paths in `../CV_FINAL_PROJECT_SP25/yolo_data/data.yaml` so that the ".." portion correspond with your machine path for that file.
 
+### 2. Run Notebook
 Run each cell in `../CV_FINAL_PROJECT_SP25/yolo/CV_project.ipynb`, with the exception of the training cell, as we've already provided the fully trained model for you. Again, be sure to update the data paths so that they correspond with your machine.
 
 Model evaluating is done via ultralytics commandline, and it will output the evaluation metrics in the runs folder. 

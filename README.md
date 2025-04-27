@@ -37,7 +37,7 @@ Note- You may have to restart your IDE for this to work properly
 Next you will need to modify the file paths in `../CV_FINAL_PROJECT_SP25/yolo_data/data.yaml` so that the ".." portion correspond with your machine path for that file.
 
 ### 3. Run Notebook
-Run each cell in `../CV_FINAL_PROJECT_SP25/yolo/CV_project.ipynb`, with the exception of the training cell, as we've already provided the fully trained model for you. Again, be sure to update the data paths so that they correspond with your machine.
+Run each cell in `../CV_FINAL_PROJECT_SP25/yolo/CV_project.ipynb`. Again, be sure to update the data paths so that they correspond with your machine.
 
 Note- After running the first cell ensure that your Ultralytics version is `8.3.40`, YOLO11 is a new architecture and requires the most up-to date version. If you have a chached version of ultralytics, or for whatever reason cannot install/upgrade to the correct version, you can upload the notebook to collab and run the model there, as the most up-to-date version should be installed by default. However to evaluate the model remember to upload the yolo_data folder to the colab instance.
 

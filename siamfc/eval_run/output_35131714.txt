@@ -1,7 +1,0 @@
-Job started on Mon Apr 21 17:09:11 EDT 2025
-Running on host: p0311.ten.osc.edu
-Job ID: 35131714
-Job name: SiamFC_Eval
-Using device: cuda
-Loading model...
-Job finished on Mon Apr 21 17:09:17 EDT 2025

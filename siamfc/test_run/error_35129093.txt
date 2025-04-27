@@ -1,2 +1,0 @@
-bash: conda: command not found
-python3: can't open file 'test_siamfc.py': [Errno 2] No such file or directory

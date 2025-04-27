@@ -1,5 +1,0 @@
-Job started on Mon Apr 21 16:19:38 EDT 2025
-Running on host: p0243.ten.osc.edu
-Job ID: 35129093
-Job name: SiamFC_Test
-Job finished on Mon Apr 21 16:19:38 EDT 2025

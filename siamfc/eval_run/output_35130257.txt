@@ -1,5 +1,0 @@
-Job started on Mon Apr 21 16:55:41 EDT 2025
-Running on host: p0314.ten.osc.edu
-Job ID: 35130257
-Job name: SiamFC_Eval
-Job finished on Mon Apr 21 16:55:44 EDT 2025

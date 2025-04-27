@@ -1,7 +1,0 @@
-Job started on Sun Apr 20 15:52:49 EDT 2025
-Running on host: p0240.ten.osc.edu
-Job ID: 35119586
-Job name: SiamFC_Drone
-Number of nodes: 1
-Number of CPUs: 4
-Job finished on Sun Apr 20 15:52:50 EDT 2025

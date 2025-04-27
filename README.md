@@ -1,21 +1,38 @@
-CV Final Project
+# CV Final Project
 
-A note on data: We were not able to provide our original training or testing data, as githib has file-size limits of 25mb, and even our zip files were larger than that. Instead, we've provided some short test data in the data folder for you to evaluate our models on.
+## A Note on Data
 
-data_modification: The data_modification folder contains the scripts that we used to subsample the original dataset into both YOLO and SiamFC formats
+We were not able to provide our original training or testing data, as GitHub has file-size limits of 25MB, and even our zip files exceeded that. Instead, we've provided some small test data in the `data` folder for you to evaluate our models on.
 
+---
 
-SiamFC: This folder contains all of our code for the SiamFC model. Instructions for running are in siamfc/readme.md
+## Folder Structure
 
+### `data_modification`
 
+This folder contains the scripts we used to subsample the original dataset into both **YOLO** and **SiamFC** formats.
 
-To run YOLO11: 
-You must have the jupyter notebbok extension installed on your machine, if you don't run the follwoing commands:
+### `SiamFC`
+
+This folder contains all of our code for the **SiamFC** model.  
+Instructions for running it are provided in `siamfc/readme.md`.
+
+---
+
+## Running YOLO11
+
+### 1. Install Jupyter Notebook Dependencies
+
+You must have the **Jupyter Notebook** extension installed on your machine.  
+If you don't, run the following commands:
+
+```bash
 pip install notebook
 pip install ipykernel
-
+```
 Note- You may have to restart your IDE for this to work properly
 
+### 2. Modify File Paths
 
 Next you will need to modify the file paths in ../CV_FINAL_PROJECT_SP25/yolo_data/data.yaml so that the ".." portion correspond with your machine path for that file.
 

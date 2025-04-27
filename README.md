@@ -15,7 +15,6 @@ This folder contains the scripts we used to subsample the original dataset into 
 ### `SiamFC`
 
 This folder contains all of our code for the **SiamFC** model.  
-Instructions for running it are provided in `siamfc/readme.md`.
 
 ## SiameseFC Code for UAV/drone tracking
 

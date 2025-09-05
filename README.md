@@ -1,4 +1,4 @@
-# CVPR 2025 Project
+# CVPR 2025 Anti-UAV Challenge
 Read our project report at ``` report.pdf```
 ## A Note on Data
 
